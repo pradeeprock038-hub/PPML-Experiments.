@@ -1,0 +1,5 @@
+p= int (input("enter the principal value :"))
+r=int(input("enter the rate of interest:"))
+t=int(input("enter the time :"))
+print(f"simple interest = {p*r/100*t}")
+print(f"compoung interest = {p*(1+r/100)**t}")

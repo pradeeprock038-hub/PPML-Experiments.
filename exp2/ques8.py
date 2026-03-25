@@ -1,0 +1,5 @@
+strr=input( "enter the sentence:")
+print(f"sentence : {strr.upper()}")
+print(f"sentence : {strr.lower()}")
+print(f"first letter capitalize = {strr[0].upper()}")
+print(f"length of the sentence is = {len(strr)}")
